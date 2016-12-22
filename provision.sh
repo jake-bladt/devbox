@@ -59,13 +59,13 @@ export PATH="\$HOME/.cabal/bin:/opt/cabal/1.22/bin:/opt/ghc/7.10.3/bin:\$PATH"
 EOF
 export PATH=~/.cabal/bin:/opt/cabal/1.22/bin:/opt/ghc/7.10.3/bin:$PATH
 
-# Still to install
-# rust
-
 # For image-svc-agency
 # aws-cli
 # aws-sdk (python, node)
 # chalice, pillow, gulp
 
 # todo - fix guest extensions
-# todo - install clojure
+
+# maybe - install clojure
+# maybe - install swift
+# maybe - install rust
