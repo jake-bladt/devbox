@@ -19,7 +19,7 @@ sudo apt-key adv \
 echo "deb https://apt.dockerproject.org/repo ubuntu-trusty main" | sudo tee /etc/apt/sources.list.d/docker.list
 sudo apt-get update
 apt-cache policy docker-engine
-sudo apt-get install docker-engine
+sudo apt-get install docker-engine -y
 
 
 
