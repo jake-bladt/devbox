@@ -61,6 +61,8 @@ export PATH=~/.cabal/bin:/opt/cabal/1.22/bin:/opt/ghc/7.10.3/bin:$PATH
 
 # For image-svc-agency
 # aws-cli
+sudo pip install --upgrade awscli
+
 # aws-sdk (python, node)
 # chalice, pillow, gulp
 
