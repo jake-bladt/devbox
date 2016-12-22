@@ -20,8 +20,8 @@ echo "deb https://apt.dockerproject.org/repo ubuntu-trusty main" | sudo tee /etc
 sudo apt-get update
 apt-cache policy docker-engine
 sudo apt-get install docker-engine -y
-
-
+sudo usermod -aG docker $USER
+sudo systemctl enable docker
 
 
 sudo service docker start
