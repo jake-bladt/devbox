@@ -21,8 +21,6 @@ sudo apt-get update
 apt-cache policy docker-engine
 sudo apt-get install docker-engine -y
 sudo usermod -aG docker $USER
-sudo systemctl enable docker
-sudo service docker start
 
 cp /vagrant/id_rsa ~/.ssh/id_rsa
 cp /vagrant/id_rsa.pub ~/.ssh/id_rsa.pub
