@@ -64,7 +64,13 @@ export PATH=~/.cabal/bin:/opt/cabal/1.22/bin:/opt/ghc/7.10.3/bin:$PATH
 sudo pip install --upgrade awscli
 
 # aws-sdk (python, node)
+pip install boto
+npm install -g aws-sdk
+
 # chalice, pillow, gulp
+
+# configure with IAM key
+
 
 # todo - fix guest extensions
 
