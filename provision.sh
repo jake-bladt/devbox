@@ -6,3 +6,10 @@ sudo apt-get install build-essential libssl-dev gettext unzip git python-pip  py
 \curl -sSL https://get.rvm.io | bash -s stable --rails
 sudo pip install virtualenv virtualenvwrapper
 sudo pip install --upgrade pip
+
+printf '\n%s\n%s\n%s' '# virtualenv' 'export WORKON_HOME=~/virtualenvs' \
+'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.bashrc
+source ~/.bashrc
+mkdir -p $WORKON_HOME
+mkvirtualenv api
+deactivate
