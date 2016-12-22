@@ -27,3 +27,6 @@ sudo service docker start
 mkdir /home/vagrant/.ssh
 cp /vagrant/id_rsa /home/vagrant/.ssh/id_rsa
 cp /vagrant/id_rsa.pub /home/vagrant/.ssh/id_rsa.pub
+
+git config --global user.name "Jake Bladt"
+git config --global user.email "jake@jakebladt.com"
