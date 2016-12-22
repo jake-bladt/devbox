@@ -40,14 +40,18 @@ git config --global user.email "jake@jakebladt.com"
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
+# java
+sudo apt-get install -y default-jdk 
+
 # Still to install
 # scala
 # haskell
 # clojure
-# java
 # rust
 
 # For image-svc-agency
 # aws-cli
 # aws-sdk (python, node)
 # chalice, pillow, gulp
+
+# todo - fix guest extensions
