@@ -28,12 +28,15 @@ cp /vagrant/id_rsa.pub ~/.ssh/id_rsa.pub
 git config --global user.name "Jake Bladt"
 git config --global user.email "jake@jakebladt.com"
 
-# Still to install
 # nodejs
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Still to install
 # scala
 # haskell
 # clojure
-#java
+# java
 # rust
 
 # For image-svc-agency
