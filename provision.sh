@@ -27,3 +27,13 @@ cp /vagrant/id_rsa.pub ~/.ssh/id_rsa.pub
 
 git config --global user.name "Jake Bladt"
 git config --global user.email "jake@jakebladt.com"
+
+# Still to install
+# nodejs
+# scala
+# haskell
+# clojure
+#java
+# rust
+# aws-cli
+# aws-sdk (python, node)
