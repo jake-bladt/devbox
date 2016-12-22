@@ -70,7 +70,8 @@ npm install -g aws-sdk
 # chalice, pillow, gulp
 
 # configure with IAM key
-
+mkdir ~/.aws
+cp /vagrant/awssecrets.txt ~/.aws/credentials
 
 # todo - fix guest extensions
 
