@@ -2,9 +2,15 @@
 
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 sudo apt-get update
+
+#pip
 sudo apt-get install build-essential libssl-dev gettext unzip git python-pip  python-dev -y \
    apt-transport-https ca-certificates
+
+#rvm
 \curl -sSL https://get.rvm.io | bash -s stable --rails
+
+#virtualenv
 sudo pip install virtualenv virtualenvwrapper
 sudo pip install --upgrade pip
 
@@ -12,6 +18,7 @@ printf '\n%s\n%s\n%s' '# virtualenv' 'export WORKON_HOME=~/virtualenvs' \
 'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.bashrc
 source ~/.bashrc
 
+#docker
 sudo apt-key adv \
                --keyserver hkp://ha.pool.sks-keyservers.net:80 \
                --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
@@ -22,6 +29,7 @@ apt-cache policy docker-engine
 sudo apt-get install docker-engine -y
 sudo usermod -aG docker $USER
 
+# configure for github
 cp /vagrant/id_rsa ~/.ssh/id_rsa
 cp /vagrant/id_rsa.pub ~/.ssh/id_rsa.pub
 
