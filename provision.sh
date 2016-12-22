@@ -43,8 +43,13 @@ sudo apt-get install -y nodejs
 # java
 sudo apt-get install -y default-jdk 
 
-# Still to install
 # scala
+wget http://www.scala-lang.org/files/archive/scala-2.11.6.deb
+sudo dpkg -i scala-2.11.6.deb
+sudo apt-get update
+sudo apt-get install scala
+
+# Still to install
 # haskell
 # clojure
 # rust
