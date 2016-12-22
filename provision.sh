@@ -22,6 +22,6 @@ apt-cache policy docker-engine
 sudo apt-get install docker-engine -y
 sudo usermod -aG docker $USER
 sudo systemctl enable docker
-
-
 sudo service docker start
+
+
