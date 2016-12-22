@@ -24,7 +24,6 @@ sudo usermod -aG docker $USER
 
 cp /vagrant/id_rsa ~/.ssh/id_rsa
 cp /vagrant/id_rsa.pub ~/.ssh/id_rsa.pub
-cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 
 git config --global user.name "Jake Bladt"
 git config --global user.email "jake@jakebladt.com"
