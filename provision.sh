@@ -35,5 +35,8 @@ git config --global user.email "jake@jakebladt.com"
 # clojure
 #java
 # rust
+
+# For image-svc-agency
 # aws-cli
 # aws-sdk (python, node)
+# chalice, pillow, gulp
