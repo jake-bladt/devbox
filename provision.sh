@@ -76,5 +76,6 @@ cp /vagrant/awssecrets.txt ~/.aws/credentials
 # todo - fix guest extensions
 
 # maybe - install clojure
+# maybe - install go
 # maybe - install swift
 # maybe - install rust
